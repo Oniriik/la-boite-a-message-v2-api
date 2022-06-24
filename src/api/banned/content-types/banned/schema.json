@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banneds",
+  "info": {
+    "singularName": "banned",
+    "pluralName": "banneds",
+    "displayName": "banned"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ip": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}

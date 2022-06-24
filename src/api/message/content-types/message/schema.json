@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "messages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "target": {
+      "type": "text",
+      "required": true
+    },
+    "sender": {
+      "type": "string"
+    },
+    "status": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "social": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "infos": {
+      "type": "json"
+    },
+    "message": {
+      "type": "text"
+    },
+    "message_id": {
+      "type": "string"
+    }
+  }
+}
